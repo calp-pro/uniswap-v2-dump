@@ -1,0 +1,6 @@
+const { load } = require('uniswap-v2-loader')
+
+module.exorts = () => load({
+    factory: '0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f',
+    filename: 'dump.csv'
+})
