@@ -24,6 +24,6 @@ where:
   
 # Usage via API:
 ```bash
-> node -e "require('uniswap-v2-dump').then(pairs => console.log(pairs.length))"
+> node -e "require('uniswap-v2-dump')().then(pairs => console.log(pairs.length))"
 > 489817
 ```
