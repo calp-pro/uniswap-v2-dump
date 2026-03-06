@@ -19,7 +19,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node -e \"require('./index')()\"",
+    "start": "node -e \"require('./index.js')({workers: 0})\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
