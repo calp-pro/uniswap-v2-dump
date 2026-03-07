@@ -10,7 +10,7 @@ Data: `dump.csv` 64Mb+
 
 CSV schema: `id,pair,token0,token1`
 
-## Example:
+## Example
 ```
 ...
 489817,0xf8ee0dee743f3587a3b6d9cf0da666b7bf1999b9,0x489f27ede258d4c39b591e6188e95d2c90201cbb,0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
