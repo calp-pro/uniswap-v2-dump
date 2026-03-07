@@ -19,7 +19,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node -e \"require('./index.js')({workers: 0})\""
+    "start": "node -e \"require('./index.js').load({workers: 0})\""
   },
   "dependencies": {
     "uniswap-v2-loader": "^5.0.20"

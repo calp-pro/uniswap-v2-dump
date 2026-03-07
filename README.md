@@ -33,6 +33,6 @@ Predefined `filename` with value `dump.csv`.
 
 ## Usage CLI/API:
 ```bash
-> node -e "require('uniswap-v2-dump')().then(pairs => console.log(pairs.length))"
+> node -e "require('uniswap-v2-dump').load().then(pairs => console.log(pairs.length))"
 > 489817
 ```
