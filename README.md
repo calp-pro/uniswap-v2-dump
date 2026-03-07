@@ -31,7 +31,7 @@ Same implementation as other Uniswap v2 based protocols.<br>
 Base API reference: [uniswap-v2-loader](https://github.com/calp-pro/uniswap-v2-loader?tab=readme-ov-file#api-reference).<br>
 Predefined `filename` with value `dump.csv`.
 
-## Usage CLI/API:
+## Usage CLI/API
 ```bash
 > node -e "require('uniswap-v2-dump').load().then(pairs => console.log(pairs.length))"
 > 489817
