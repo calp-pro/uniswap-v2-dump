@@ -17,6 +17,7 @@
   "license": "MIT",
   "author": "Vladimir Spirin (spirin.vladimir@gmail.com)",
   "type": "commonjs",
+  "types": "index.d.ts",
   "main": "index.js",
   "scripts": {
     "start": "node -e \"require('./index.js').load({workers: 0})\""
