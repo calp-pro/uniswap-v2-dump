@@ -23,7 +23,7 @@
     "start": "node -e \"require('./index.js').load({workers: 0})\""
   },
   "dependencies": {
-    "uniswap-v2-loader": "^5.0.20"
+    "uniswap-v2-loader": "^6.0.0"
   },
   "publishConfig": {
     "provenance": true
