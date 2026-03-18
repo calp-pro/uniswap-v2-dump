@@ -6,15 +6,24 @@ Static set of addresses (uniswap-v2).<br>
 New pairs updates happen every hour at GitHub Action [update.yml](https://github.com/calp-pro/uniswap-v2-dump/actions/workflows/update.yml)<br>
 via [uniswap-v2-loader](https://github.com/calp-pro/uniswap-v2-loader)
 
-Data: `dump.csv` 64Mb+ 
+Data:
+- `dump_pairs.bin` 10 Mb+ 
+- `dump_tokens.bin` 10 Mb+
+- `dump_p2tt.bin` 3 Mb+
 
-CSV schema: `id,pair,token0,token1`
-
-## Example
-```
-...
-489817,0xf8ee0dee743f3587a3b6d9cf0da666b7bf1999b9,0x489f27ede258d4c39b591e6188e95d2c90201cbb,0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
-...
+## Output format
+`load` and subscribe` methods return collection of pools/pairs.
+```js
+[
+    ...
+    {
+        id: 489817,
+        pair: '0xf8ee0dee743f3587a3b6d9cf0da666b7bf1999b9',
+        token0: '0x489f27ede258d4c39b591e6188e95d2c90201cbb',
+        token1: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+    },
+    ...
+]
 ```
 where:
 - `489817`
@@ -29,7 +38,10 @@ where:
 ## API
 Same implementation as other Uniswap v2 based protocols.<br>
 Base API reference: [uniswap-v2-loader](https://github.com/calp-pro/uniswap-v2-loader?tab=readme-ov-file#api-reference).<br>
-Predefined `filename` with value `dump.csv`.
+Predefined:
+- `filename: "dump"
+- `csv: false` (binary mode)
+- `factory: "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f"` (Uniswap v2 factory)
 
 ## Usage CLI/API
 ```bash
