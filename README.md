@@ -39,7 +39,7 @@ where:
 Same implementation as other Uniswap v2 based protocols.<br>
 Base API reference: [uniswap-v2-loader](https://github.com/calp-pro/uniswap-v2-loader?tab=readme-ov-file#api-reference).<br>
 Predefined:
-- `filename: "dump"
+- `filename: "dump"`
 - `csv: false` (binary mode)
 - `factory: "0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f"` (Uniswap v2 factory)
 
