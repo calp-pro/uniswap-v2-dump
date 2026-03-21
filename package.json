@@ -1,6 +1,6 @@
 {
   "name": "uniswap-v2-dump",
-  "version": "3.0.50",
+  "version": "3.0.51",
   "description": "Static set of addresses (uniswap-v2)",
   "keywords": [
     "Uniswap-v2",
@@ -23,7 +23,7 @@
     "start": "node -e \"require('./index.js').load({workers: 0})\""
   },
   "dependencies": {
-    "uniswap-v2-loader": "^6.1.1"
+    "uniswap-v2-loader": "^6.1.3"
   },
   "publishConfig": {
     "provenance": true
