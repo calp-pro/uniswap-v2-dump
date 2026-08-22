@@ -12,7 +12,7 @@ Data:
 - `dump_p2tt.bin` 3 Mb+
 
 ## Output format
-`load` and subscribe` methods return collection of pools/pairs.
+`load` and `subscribe` methods return collection of pools/pairs.
 ```js
 [
     ...
